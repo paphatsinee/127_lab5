@@ -1,25 +1,18 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
-    int N,i,m=1;
-    scanf("%d",&N);
-    int B[100];
-    if(m<100)
-    {
-        while(m%2==0 || m%3==0 || m%5==0)
-        {
-            if(m%7!=0 && m%11!=0 && m%19!=0)
-            {
-                B[i]=m;
-                m++;
-                i++;
-            }
+    int N,i=0;
+    int B[]={1,2,3,4,5,6,8,9,10,12,15};
 
-        }
-        m++;
+    scanf("%d",&N);
+
+    while(i!=N)
+    {
+        i++;
     }
 
 
-    printf("%d",B[N]);
+    printf("%d",B[i-1]);
+
+    return 0;
 }
